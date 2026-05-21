@@ -23,6 +23,8 @@ O **SecOps Ingestion Sizing Tool** resolve um problema crítico de pré-venda:
 
 Esta ferramenta permite calcular o volume estimado de ingestão a partir do inventário real do cliente, produzindo a métrica correta para cotação do Chronicle SecOps — com relatório exportável em PDF e planilha XLSX.
 
+Acesse na web: https://matheusdamacena.github.io/secopsestimate/
+
 ---
 
 ## ✨ Funcionalidades
