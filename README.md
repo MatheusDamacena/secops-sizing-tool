@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/SecOps-Sizing%20Tool-4285f4?style=for-the-badge&logoColor=white" alt="SecOps Sizing Tool"/>
 
-# SecOps Ingestion Sizing Tool
+# SecOps Sizing Tool
 
 **Ferramenta de pré-venda técnica para dimensionamento de volume de ingestão do Google SecOps**
 
@@ -17,7 +17,7 @@
 
 ## 📌 Sobre
 
-O **SecOps Ingestion Sizing Tool** resolve um problema crítico de pré-venda:
+O **SecOps Sizing Tool** resolve um problema crítico de pré-venda:
 
 > *O Google SecOps é licenciado por **TB/ano** (volume de dados ingeridos). Não existe conversão direta cotar sem entender o ambiente gera estimativas incorretas e perda de negócio.*
 
@@ -218,7 +218,7 @@ Security Cloud Architect | Google Cloud Security Pre-Sales
 
 <div align="center">
 
-*Construído para o ecossistema de parceiros Google Cloud Security no Brasil*
+*Construído para o ecossistema de parceiros/comunidade Google Cloud Security no Brasil, não é uma ferramenta do Google*
 
 **⭐ Se esta ferramenta foi útil, deixe uma estrela no repositório**
 
