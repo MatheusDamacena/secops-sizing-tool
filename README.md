@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Sobre
+## Sobre
 
 O **SecOps Sizing Tool** resolve um problema crítico de pré-venda:
 
@@ -27,9 +27,9 @@ Acesse na web: https://matheusdamacena.github.io/secops-sizing-tool/
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🧮 Dimensionamento
+### Dimensionamento
 
 | # | Funcionalidade | Descrição |
 |---|---|---|
@@ -40,7 +40,7 @@ Acesse na web: https://matheusdamacena.github.io/secops-sizing-tool/
 | 5 | **Tooltip de cálculo** | Hover sobre GB/dia mostra a conta completa: `Qtde × EPS × bytes × 86.400 = evt/dia → GB/dia → TB/ano` |
 | 6 | **Coluna de Observação** | Campo de nota livre por linha (ex: "cliente confirmou 250 instâncias") - exportado no XLSX |
 
-### 🔍 Navegação e filtros
+### Navegação e filtros
 
 | # | Funcionalidade | Descrição |
 |---|---|---|
@@ -50,14 +50,14 @@ Acesse na web: https://matheusdamacena.github.io/secops-sizing-tool/
 | 10 | **Sidebar retrátil** | Recolhe o painel de navegação para ampliar o espaço da tabela |
 | 11 | **Redimensionamento de colunas** | Arraste a borda de qualquer coluna do cabeçalho para ajustar a largura |
 
-### ➕ Eventos extras
+###  Eventos extras
 
 | # | Funcionalidade | Descrição |
 |---|---|---|
 | 12 | **Evento Customizado** | Adiciona uma linha totalmente editável: nome, escopo, qtde, EPS/ativo e bytes/evento |
 | 13 | **Duplicar Evento** | Modal com busca e checkboxes duplica qualquer tipo existente com quantidade independente (ex: dois fabricantes de NGFW) |
 
-### 📊 Análise e comparação
+### Análise e comparação
 
 | # | Funcionalidade | Descrição |
 |---|---|---|
@@ -65,14 +65,14 @@ Acesse na web: https://matheusdamacena.github.io/secops-sizing-tool/
 | 15 | **Gráfico de Composição** | Donut chart interativo com participação % de cada categoria no volume total |
 | 16 | **Calculadora Rápida** | Aba dedicada — converte MB/GB/TB por dia, hora ou mês e EPS diretamente para TB/ano |
 
-### 📄 Exportação
+### Exportação
 
 | # | Funcionalidade | Descrição |
 |---|---|---|
 | 17 | **Relatório PDF** | Aba 3 com layout A4: cabeçalho com nome do projeto, 5 métricas, donut chart, tabela detalhada e totais  exportado via print nativo do browser (sem dependências) |
 | 18 | **Export XLSX** | Planilha profissional com formatação, cores por hierarquia, zebra striping, totais em verde e fórmulas, nome do projeto no título e no nome do arquivo |
 
-### ⚙️ Produtividade
+### Produtividade
 
 | # | Funcionalidade | Descrição |
 |---|---|---|
@@ -85,7 +85,7 @@ Acesse na web: https://matheusdamacena.github.io/secops-sizing-tool/
 
 ---
 
-## 🚀 Como usar
+## Como usar
 
 ### Opção 1 — Direto no browser (recomendado)
 
@@ -103,7 +103,7 @@ Qualquer servidor web estático funciona: Netlify, Vercel, S3, Azure Static Web 
 
 ---
 
-## 📋 Fluxo de uso recomendado
+## Fluxo de uso recomendado
 
 ```
 1. Digite o nome do projeto / cliente no campo do header
@@ -134,7 +134,7 @@ Qualquer servidor web estático funciona: Netlify, Vercel, S3, Azure Static Web 
 
 ---
 
-## 📐 Fórmula de cálculo
+## Fórmula de cálculo
 
 ```
 Volume diário (bytes) = Qtde × EPS/ativo × bytes/evento × 86.400 s/dia
@@ -149,7 +149,7 @@ TB/ano  = GB/dia × 365 ÷ 1.000
 
 ---
 
-## 🗂️ Categorias cobertas
+## Categorias cobertas
 
 | Categoria | Exemplos de tipos de evento |
 |---|---|
@@ -187,7 +187,7 @@ TB/ano  = GB/dia × 365 ÷ 1.000
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 A ferramenta é um HTML standalone. A única dependência externa é o SheetJS, carregado **somente ao exportar XLSX**:
 
@@ -200,7 +200,7 @@ Para uso completamente offline no XLSX, baixe o SheetJS e ajuste o `src` no cód
 
 ---
 
-## 📄 Licença
+## Licença
 
 MIT — veja [LICENSE](./LICENSE).
 
@@ -208,7 +208,7 @@ Os valores de EPS/ativo e bytes/evento são referências técnicas compiladas de
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Matheus Damacena**  
 Security Cloud Architect | Google Cloud Security Pre-Sales  
