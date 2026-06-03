@@ -211,7 +211,7 @@ Os valores de EPS/ativo e bytes/evento são referências técnicas compiladas de
 ## Autor
 
 **Matheus Damacena**  
-Security Cloud Architect | Google Cloud Security Pre-Sales  
+Security Cloud Architect | Google Cloud Security  
 [secmath.com](https://secmath.com) · [LinkedIn](https://linkedin.com/in/matheusdamacena)
 
 ---
